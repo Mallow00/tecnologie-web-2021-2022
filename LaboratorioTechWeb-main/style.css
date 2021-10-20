@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+jhtml, body {
+    font-size: 100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: auto;
+    max-width: 1024px;
+}
+
+body {
+    border: 1px solid #000;
+}
+
+header {
+    color: #f3c428;
+    background-color: #A80022;
+    text-align: center;
+    background-image: url("./images/sfondo.png");
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1em;
+    padding-top: 0.7em;
+}
+
+header > h1 {
+    background-image: url("./images/angry-birds-logo-nero.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -999999em;
+    font-size: 3em;
+}
+
+header > h2 {
+    font-size: 2em;
+    margin-top: 0.3em;
+}
+
+#breadcrumb {
+    background-color: #0E1E38;
+    color: #f3c428;
+    font-size: 1.1em;
+    padding: 0.5em 0.5em 1em;
+}
