@@ -157,6 +157,10 @@ SEZIONE CONTENT
     margin-right: 1em;
 }
 
+#characterStory dd p {
+    margin-left: 25%;
+}
+
 /*
 ====================
 SEZIONE FOOTER
