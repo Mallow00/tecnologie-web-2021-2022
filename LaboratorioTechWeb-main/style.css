@@ -137,7 +137,11 @@ SEZIONE CONTENT
 }
 
 #characterStory dd {
-
+    border: 1px solid black;
+    border-top: none;
+    padding: 0.5em;
+    margin-bottom: 1.0em;
+    min-height: 10em;
 }
 
 #characterStory dt {
@@ -145,6 +149,12 @@ SEZIONE CONTENT
     color: white;
     padding: 0.5em;
     font-size: 1.1em;
+}
+
+#characterStory img {
+    float: left;
+    width: 20%;
+    margin-right: 1em;
 }
 
 /*
