@@ -136,6 +136,11 @@ SEZIONE CONTENT
     padding-left: 3.5em;
 }
 
+/*
+===================
+SOTTOSEZIONE PROTAGONISTI
+===================
+*/
 #characterStory dd {
     border: 1px solid black;
     border-top: none;
@@ -159,6 +164,40 @@ SEZIONE CONTENT
 
 #characterStory dd p {
     margin-left: 25%;
+}
+
+/*  
+===================== 
+SOTTOSEZIONE CURIOSITA 
+===================== 
+*/ 
+ 
+#curiosita { 
+    border-left: 1px solid #000; 
+    margin-left: 25%; 
+    padding: 1.0em; 
+    padding-top: 2.0em; 
+    padding-left: 3.5em; 
+} 
+ 
+#curiosita h1{ 
+    text-align: center; 
+} 
+
+#curiosita h2{ 
+    font-size: 1.2em; 
+    padding: 0.2em; 
+}
+ 
+#curiosita #curiosity1{ 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; 
+} 
+ 
+#curiosita .curiosityfoot{ 
+    vertical-align: middle; 
 }
 
 /*
