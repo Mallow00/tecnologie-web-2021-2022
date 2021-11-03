@@ -43,6 +43,11 @@ header > h1 {
     background-repeat: no-repeat;
     text-indent: -999999em;
     font-size: 3em;
+    transition: .25s cubic bezier(.19,1,.22,1);
+}
+
+header h1:hover {
+    transform: scale(1.05);
 }
 
 header > h2 {
@@ -136,6 +141,18 @@ SEZIONE CONTENT
     padding-left: 3.5em;
 }
 
+#content img {
+    box-shadow: 10px 10px 8px;
+}
+
+#imagePage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
 /*
 ===================
 SOTTOSEZIONE PROTAGONISTI
@@ -219,6 +236,19 @@ SOTTOSEZIONE VERSIONI
     padding: 0.5em;
     font-size: 1.1em;
 }
+
+/*
+====================
+SOTTOSEZIONE STORIA
+====================
+*/
+.immagineStoria {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*
 ====================
 SEZIONE FOOTER
