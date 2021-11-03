@@ -14,6 +14,11 @@
     border: 1px solid black;
 }
 
+#footer {
+    clear: both;
+    text-align: center;
+}
+
 #footer .imgValidCode {
     width: 10%;
 }
