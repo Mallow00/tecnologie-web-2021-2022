@@ -1,0 +1,23 @@
+#breakingNews {
+    float: none;
+    width: 90%;
+}
+
+#menu {
+    float: none;
+    width: 90%;
+    font-size: 1.5em;   
+}
+
+#content {
+    margin-left: 0;
+    border: 1px solid black;
+}
+
+#footer .imgValidCode {
+    width: 10%;
+}
+
+#footer p {
+    width: 75%;
+}
